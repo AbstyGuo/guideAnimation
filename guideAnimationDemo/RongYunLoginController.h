@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RongYunLoginController.h
 //  guideAnimationDemo
 //
 //  Created by YaoKaige on 16/5/27.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RCAnimatedImagesView.h"
 
-@interface ViewController : UIViewController
-
+@interface RongYunLoginController : UIViewController<RCAnimatedImagesViewDelegate>
 
 @end
-
